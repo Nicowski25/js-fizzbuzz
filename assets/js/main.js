@@ -3,7 +3,7 @@ const ulElement = document.querySelector("ul")
 
 //settiamo il valore del nostro index a 0
 //iniziamo il for < 100
-for (let index = 0; index <=  100; index++) {
+for (let index = 1; index <=  100; index++) {
     if (index % 3 == 0 && index % 5 == 0) { //se index è div per 3 e 5 
         const liElement = document.createElement('li') //creiamo liELement che aggiunge li
         ulElement.append(liElement) //liElement aggiunge li dentro ulElement
