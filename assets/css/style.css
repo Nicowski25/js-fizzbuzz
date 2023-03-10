@@ -3,3 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.ls-none {
+    list-style: none;
+}
+
+:root {
+    --number: #255F85;
+    --fizz: #274029;
+    --buzz: #F0A202;
+    --fizzbuzz: #C5283D;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.fizzbuzz {
+    background-color: var(--fizzbuzz);
+}
+
+.number {
+    background-color: var(--number);
+}
+
+.fizz {
+    background-color: var(--fizz);
+}
+
+.buzz {
+    background-color: var(--buzz);
+}
